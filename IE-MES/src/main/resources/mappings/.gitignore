@@ -1,0 +1,12 @@
+/base-mapper.xml
+/baseExt-mapper.xml
+/kanban-mapper.xml
+/log-mapper.xml
+/operation-mapper.xml
+/plan-mapper.xml
+/produce-mapper.xml
+/report-mapper.xml
+/resources-mapper.xml
+/role-mapper.xml
+/user-mapper.xml
+/workshop-mapper.xml
