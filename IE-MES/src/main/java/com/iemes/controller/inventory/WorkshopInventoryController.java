@@ -85,8 +85,10 @@ public class WorkshopInventoryController extends BaseController {
 		workshopInventoryFormMap.put("by_user", userFormMap.getStr("accountName"));
 		workshopInventoryFormMap.put("receive", 1);
 		
-		String itemSfcs =  workshopInventoryFormMap.getStr("item_sfcs");	//物料SFC
-		String item_nos =  workshopInventoryFormMap.getStr("item_nos");		//物料号
+//		String itemSfcs =  workshopInventoryFormMap.getStr("item_sfcs");	//物料SFC
+//		String item_nos =  workshopInventoryFormMap.getStr("item_nos");		//物料号
+		String itemSfcs =  workshopInventoryFormMap.getStr("itemSfc");	//物料SFC
+		String item_nos =  workshopInventoryFormMap.getStr("item");		//物料号
 		Set<String> set = workshopInventoryFormMap.keySet();
 		
 		if (!StringUtils.isEmpty(itemSfcs) && !StringUtils.isEmpty(item_nos) ) {
